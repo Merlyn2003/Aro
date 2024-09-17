@@ -2,6 +2,8 @@ Install all the required moduled and packages from the requirements.txt through 
                             pip install requirements.txt
 in the vscode terminal.
 
+Download the Quantized BioMistral LLM "BioMistral-7B.Q4_K_M.gguf" from the https://huggingface.co/MaziyarPanahi/BioMistral-7B-GGUF/tree/main in your working directory.
+
 To upload all the pdfs in the data folder, you need to run the vector_db.py. Since we use qdrant, you will need to run the docker for the port 6333 before executing the vector_db.py.
 After setting up the docker, execute the vector_db: python vector_db.py
 
